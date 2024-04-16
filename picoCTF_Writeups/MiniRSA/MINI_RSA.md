@@ -26,7 +26,7 @@ $9 \% 8 = 9 - 8 = 1$
 
 $25 \% 9 = 25 -9 = 16 - 9 = 7$
 
-This means that we can now say that $\exists i \in \N (c = m^e - iN)$, and that $\exists i \in \N ((c + iN)^{\frac 1 e} = m)$
+This means that we can now say that $\exists i \in \mathbf N (c = m^e - iN)$, and that $\exists i \in \mathbf N ((c + iN)^{\frac 1 e} = m)$
 
 One of the hints for this problem tells us that we shouldn't have to make too many guesses, so now we know our approach! We need to find the cubed root of $c+iN$ for some number of i's, and see if it contains the flag!
 
