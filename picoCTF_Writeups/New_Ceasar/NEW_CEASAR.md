@@ -39,9 +39,17 @@ In order to decrpyt the flag, I chose to design two new functions that reverse t
 
 To reversing the shift function was fairly straitforward. The orginal function added the shift of the key onto the letter, so my function subtracted this value, essentially changing the + to a - in ALPHABET[(t1 - t2) % len(ALPHABET)]
 
+
+<img src="Images/shiftBack.png"
+     alt="Shift Back Image"/>
+
+
 ##### revert():
 
 To reverse the b16_encode() function, I fist looped though the letters of our encoded text two at a time. For each of the two letters, I found their index in the ALPHABET variable. Since the fist letters index represented the first 4 bits of an 8 bit binarry character, I multiplied the value by 16, which corrospondes to a shift left of 4 bits. I then added the two indexes togther. Finally, I used the chr() function to transform the added numbers back into thier text form.
+
+<img src="Images/revert.png"
+     alt="Shift Back Image"/>
 
 ---
 
